@@ -1,0 +1,30 @@
+.logoSearch {
+    display: flex;
+    gap: 1px;
+
+    img {
+        height: 48px;
+    }
+
+    input {
+        padding: 5px;
+        margin-top: 10px;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid rgb(43, 159, 226);
+
+
+    }
+
+    .searchBar {
+        display: flex;
+        align-items: center;
+        color: white;
+        border-radius: 4px;
+        padding: 8px;
+        height: 15px;
+        margin-top: 10px;
+    
+        background: linear-gradient(106.23deg, #2789f9, #656db3 100%);
+    }
+}
