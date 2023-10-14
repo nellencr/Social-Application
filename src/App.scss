@@ -1,0 +1,32 @@
+.App{
+    overflow: hidden;
+    color: #242d49;
+    background: #f3f3f3;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #a6ddf0;
+    filter: blur(72px);
+  }
+  
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    background: linear-gradient(106.23deg, #2789f9, #656db3 100%);
+    transition:all 100ms ease-out;
+  }
+  
+  .button:hover{
+    cursor: pointer;
+    color: rgb(73, 73, 165);
+    background: transparent;
+    border: 2px solid #242d49;;
+  }
