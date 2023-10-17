@@ -1,0 +1,73 @@
+.profileCardWithBackground {
+    background-color:rgba(255, 255, 255, 0.64);
+    height: 70%;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+.ProfileCard{
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    gap: 1rem;
+    overflow-x: clip;
+    background: rgba(255, 255, 255, 0.64);
+}
+
+.profileImages{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.64);
+}
+
+.profileImages>img:nth-of-type(1) {
+    width: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
+    margin-top: 8px;
+    background: rgba(255, 255, 255, 0.64);
+}
+
+.profileImages>img:nth-of-type(2)
+{
+    width: 6rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -3rem;
+    box-shadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+    background: rgba(255, 255, 255, 0.64);
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 10px;
+
+}
+
+.folowcard {
+    display: flex;
+    gap: 94px;
+    margin-left: 25px;
+}
+
+.v1 {
+    position: relative;
+    border-right: 2px solid grey;
+  }
+
+hr {
+    width: 91%;
+    border: 1.5px solid grey;
+    
+}
+  
+.folowers {
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
